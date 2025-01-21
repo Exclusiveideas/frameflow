@@ -45,6 +45,7 @@ export default function RootLayout({ children }) {
         href="/favicon-16x16.png"
       />
       <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      <script src="https://getlaunchlist.com/js/widget.js" defer></script>
     </Head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable}`}>
         {children}
