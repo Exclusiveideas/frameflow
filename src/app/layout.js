@@ -1,5 +1,14 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
+ 
+// If loading a variable font, you don't need to specify the font weight
+const poppins = Poppins({
+  weight: ['100','200','300','400','500','600', '700'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+})
+ 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,7 +28,24 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <Head>
+      <title>{metadata.title}</title>
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="/favicon-16x16.png"
+      />
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    </Head>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable}`}>
         {children}
       </body>
     </html>

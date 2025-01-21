@@ -1,0 +1,57 @@
+.navbarWrapper {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    padding-top: 2rem;
+}
+
+.logo {
+    width: 10rem;
+    height: max-content;
+}
+
+
+.ctaBtn {
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #342DF2;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Mobile */
+@media (max-width: 575px) {
+
+    .navbarWrapper {
+        height: 3rem;
+        padding: 0 1rem;
+        padding-top: 1.5rem;
+    }
+
+
+    .logo {
+        width: 7rem;
+    }
+
+
+
+    .ctaBtn {
+        height: 2.5rem;
+        width: 7rem;
+        font-size: 12px;
+    }
+
+
+}
