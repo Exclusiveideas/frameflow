@@ -21,7 +21,7 @@
     background-color: var(--brand-color);
     border-radius: 50%;
     filter: blur(25px);
-    opacity: .3;
+    opacity: .1;
 }
 
 

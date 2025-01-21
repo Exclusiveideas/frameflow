@@ -1,9 +1,21 @@
 "use client";
 
+import { useEffect } from "react";
 import "./waitlistSection.css";
 
 const WaitlistSection = () => {
-  const handleSubmit = () => {};
+  
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://getlaunchlist.com/js/widget.js";
+    script.defer = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup if necessary
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     <div className="waitlistWrapper">
