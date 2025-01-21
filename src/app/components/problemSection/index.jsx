@@ -10,11 +10,11 @@ const ProblemSection = () => {
         <div className="with-container">
           <h4 className="withHeader">Editing Without FrameFlow</h4>
           <div className="container-bullets">
-            <p className="withBullet">Waste Hours editing a your videos</p>
+            <p className="withBullet">Waste Hours editing a single video</p>
             <p className="withBullet">Headaches over deciding on what to add</p>
             <p className="withBullet">Taking on a few projects at a time</p>
             <p className="withBullet">
-              Having a disorganized creative process in your editing workflow
+              Having a disorganized creative process in your editing
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ const ProblemSection = () => {
               Ability to take on more projects at a time
             </p>
             <p className="withBullet">
-              AN organized creative process in your editing workflow
+              Equipped with an organized creative process in your editing
             </p>
           </div>
         </div>

@@ -12,7 +12,7 @@ const HeroSection = ({ handleScroll }) => {
       </p>
       <div className="bulletPoints">
         <p className="points">Uniquely trained models just for you</p>
-        <p className="points">Spend less time one each project</p>
+        <p className="points">Spend less time on each project</p>
         <p className="points">Take on more more projects and earn more</p>
         <p className="points">No more burnouts</p>
       </div> 
