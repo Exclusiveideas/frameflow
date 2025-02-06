@@ -16,6 +16,12 @@ body {
   scroll-behavior: smooth;
 }
 
+body {
+  background-image: radial-gradient(#cdc0c0 1px, transparent 1px);
+background-size: 20px 20px;
+
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

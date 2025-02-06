@@ -1,0 +1,100 @@
+.aboutSectWrapper {
+    width: 75%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: -6rem;
+    gap: 3.5rem;
+    align-self: center;
+
+}
+
+.badgeWrapper {
+    border-radius: 15px;
+    background-color: #1c1f3b;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 16rem;
+    align-self: center;
+    padding: 2rem;
+}
+
+.badgeWrapper .header {
+    color: white;
+    font-size: 3rem;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+.badgeWrapper .description {
+    font-size: 1.6rem;
+    color: rgb(215, 215, 215);
+    position: relative;
+}
+
+.cursorWrapper {
+    position: absolute;
+    bottom: -15%;
+    right: 20%;
+}
+
+.aboutSubSection {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.subHeader {
+    font-size: 2.8rem;
+    /* line-height: 100%; */
+    font-weight: bold;
+}
+
+.subDescription {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+}
+
+.previewMockup {
+    width: 100%;
+    height: max-content;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+    margin-top: 2rem;
+
+    -webkit-box-shadow: 1px -1px 26px 7px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px -1px 26px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px -1px 26px 7px rgba(0, 0, 0, 0.2);
+}
+
+.previewMockup:hover {
+    transform: scale(1.02);
+
+
+    -webkit-box-shadow: 1px -1px 26px 11px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px -1px 26px 11px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px -1px 26px 11px rgba(0, 0, 0, 0.2);
+}
+
+.appPreview {
+    width: 100%;
+    height: max-content;
+}
+
+.extrafeatures_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    width: 100%;
+    height: max-content;
+}

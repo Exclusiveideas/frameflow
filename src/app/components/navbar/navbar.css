@@ -11,8 +11,9 @@
     left: 50%;
     transform: translateX(-50%);
     border-radius: 12rem;
-    background-color: #d1d1f7d3;
-    backdrop-filter: blur(7px);
+    background-color: #9e9bf2a0;
+    backdrop-filter: blur(10px);
+    z-index: 999;
 
     -webkit-box-shadow: -1px 1px 53px -3px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: -1px 1px 53px -3px rgba(0, 0, 0, 0.25);

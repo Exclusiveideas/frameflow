@@ -1,19 +1,10 @@
 "use client";
 
+import SignupForm from "../signUpForm";
 import "./heroSection.css";
 
-const HeroSection = ({ handleScroll }) => {
-  // useEffect(() => {
-  //   const script = document.createElement("script");
-  //   script.src = "https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js";
-  //   script.defer = true;
-  //   document.body.appendChild(script);
+const HeroSection = () => {
 
-  //   return () => {
-  //     // Cleanup if necessary
-  //     document.body.removeChild(script);
-  //   };
-  // }, []);
 
   return (
     <div id="hero" className="heroWrapper">
@@ -32,15 +23,8 @@ const HeroSection = ({ handleScroll }) => {
       <p className="herotagline">
         Spend less time thinking and more time editing and earning, Sign Up Now!
       </p>
-      <p className="herotagline">No more creative blocks</p>
-      <div className="heroWaitlist_wrapper">
-        {/* <div
-          className="launchlist-widget"
-          data-key-id="m2QxrD"
-          data-height="180px"
-        ></div> */}
-        <div id="getWaitlistContainer" data-waitlist_id="24920" data-widget_type="WIDGET_3"></div>
-      </div>
+      {/* <p className="herotagline">No more creative blocks</p> */}
+      <SignupForm />
     </div>
   );
 };

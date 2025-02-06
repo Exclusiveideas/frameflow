@@ -1,0 +1,26 @@
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+.footerHeader {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: rgb(101, 101, 101);
+}
+
+.footer p a {
+    text-decoration: underline;
+}

@@ -14,13 +14,13 @@
 .heroWord {
     font-size: 4.5rem;
     line-height: 110%;
-    max-width: 75%;
+    /* max-width: 75%; */
     text-align: center;
     font-weight: 700;
 }
 
 .herotagline {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: center;
     font-weight: 400;
 }
@@ -28,9 +28,6 @@
 .ampersand {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
-
-
-
 
 .points::before {
     position: absolute;
