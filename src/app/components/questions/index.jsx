@@ -39,7 +39,7 @@ const questions = [
 
 const Questions = () => {
   return (
-    <div className='questionsWrapper'>
+    <div id="faqs" className='questionsWrapper'>
         <h2 className="questionsheader">Questions Answered</h2>
         <div className="questionsSubWrapper">
             {questions?.map((question, i) => (

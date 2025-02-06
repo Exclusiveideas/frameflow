@@ -37,7 +37,7 @@ const appFeatures = [
 
 const AboutSection = () => {
   return (
-    <div className="aboutSectWrapper">
+    <div id="features" className="aboutSectWrapper">
       <div className="badgeWrapper">
         <h2 className="header">So, What is FrameFlow?</h2>
         <div className="description">

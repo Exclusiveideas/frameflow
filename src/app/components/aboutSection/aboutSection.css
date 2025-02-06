@@ -3,10 +3,9 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-top: -6rem;
+    padding-top: 7rem;
     gap: 3.5rem;
     align-self: center;
-
 }
 
 .badgeWrapper {
@@ -16,9 +15,10 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    height: 16rem;
+    min-height: 16rem;
     align-self: center;
     padding: 2rem;
+    gap: 4rem;
 }
 
 .badgeWrapper .header {
@@ -42,7 +42,6 @@
 
 .aboutSubSection {
     width: 100%;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -52,14 +51,13 @@
 
 .subHeader {
     font-size: 2.8rem;
-    /* line-height: 100%; */
     font-weight: bold;
 }
 
 .subDescription {
     font-size: 1.7rem;
     font-weight: 400;
-    color: rgb(105, 105, 105);
+    color: rgb(85, 85, 85);
 }
 
 .previewMockup {
@@ -97,4 +95,67 @@
     row-gap: 1.5rem;
     width: 100%;
     height: max-content;
+}
+
+
+
+/* Tab */
+@media (max-width: 992px) {
+    .extrafeatures_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 575px) {
+    .aboutSectWrapper {
+        width: 90%;
+    }
+
+    .badgeWrapper {
+        padding: 1rem;
+        gap: 2rem;
+        min-height: max-content;
+    }
+
+    .badgeWrapper .header {
+        font-size: 6vw;
+    }
+
+    .badgeWrapper .description {
+        font-size: 1rem;
+    }
+
+    .cursorWrapper {
+        display: none;
+    }
+
+
+    .aboutSubSection {
+        gap: 1.5rem;
+    }
+
+    .subHeader {
+        font-size: 7.5vw;
+        text-align: center;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    .subDescription {
+        font-size: 5vw;
+        text-align: center;
+        width: 100%;
+        font-weight: 400;
+        color: rgb(85, 85, 85);
+    }
+
+
+    .extrafeatures_wrapper {
+        grid-template-columns: 1fr;
+    }
+
 }

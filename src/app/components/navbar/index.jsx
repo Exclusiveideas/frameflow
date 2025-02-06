@@ -5,12 +5,12 @@ import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
+
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -35,26 +35,20 @@ const Navbar = () => {
         <TwitterIcon />
         <LinkedInIcon />
         <div className="menuIconWrapper">
-          <DropdownMenu>
-            <DropdownMenuTrigger>
+          <Popover>
+            <PopoverTrigger asChild>
               {!navbarOpen ? (
                 <MenuIcon className="menuIcon" />
               ) : (
                 <CloseIcon className="menuIcon" />
               )}
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuItem>
-                <Link href="#features">Features</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href="#faqs">FAQs</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href="#contact">Contact Me</Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+            </PopoverTrigger>
+            <PopoverContent className="w-full popOverContent">
+              <Link href="#features">Features</Link>
+              <Link href="#faqs">FAQs</Link>
+              <Link href="#contact">Contact Me</Link>
+            </PopoverContent>
+          </Popover>
         </div>
       </div>
     </div>

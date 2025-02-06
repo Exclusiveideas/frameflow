@@ -6,15 +6,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* background: url('/bg_gradient.svg'); */
     gap: 1rem;
     padding: 1rem;
+    margin-bottom: -13rem;
 }
 
 .heroWord {
     font-size: 4.5rem;
     line-height: 110%;
-    /* max-width: 75%; */
     text-align: center;
     font-weight: 700;
 }
@@ -29,45 +28,19 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
-.points::before {
-    position: absolute;
-    content: '✔';
-    font-weight: bold;
-    color: #342DF2;
-    top: 0;
-    left: -7%;
-}
-
-.ctaBtn {
-    height: 3rem;
-    width: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #342DF2;
-    color: white;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-}
-
 
 
 
 /* Tab */
 @media (max-width: 992px) {
 
-
     .heroWord {
         max-width: 90%;
     }
 
-
     .herotagline {
         max-width: 85%;
     }
-
-
 }
 
 
@@ -75,41 +48,22 @@
 
 /* Mobile */
 @media (max-width: 575px) {
-
     .heroWrapper {
-        height: calc(100vh - 3rem);
+        margin-bottom: -11.5rem;
     }
 
     .heroWord {
         font-size: 10.5vw;
         line-height: 110%;
-        max-width: 97%;
+        max-width: 98%;
         text-align: center;
     }
 
 
     .herotagline {
-        font-size: 4vw;
+        font-size: 4.3vw;
         max-width: 90%;
         text-align: center;
-    }
-
-
-    .bulletPoints {
-        gap: .3rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        max-width: 90%;
-    }
-
-    .points {
-        font-size: .8rem;
-    }
-
-
-
-    .points::before {
-        left: -6%;
     }
 
 }

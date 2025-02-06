@@ -24,3 +24,35 @@
 .footer p a {
     text-decoration: underline;
 }
+
+
+
+/* Tab */
+@media (max-width: 992px) {
+    .extrafeatures_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 575px) {
+
+    .footer {
+        height: 25vh;
+    }
+
+    .footerHeader {
+        font-size: 1.8rem;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .footer p {
+        font-size: .8rem;
+        width: 90%;
+        text-align: center;
+    }
+}

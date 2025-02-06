@@ -20,8 +20,6 @@ export default function Home() {
         <InquiryForm />
         <CTABanner />
         <Footer />
-        {/* <MockupSection /> */}
-        {/* <WaitlistSection /> */}
       </main>
     </div>
   );

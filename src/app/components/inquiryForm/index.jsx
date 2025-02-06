@@ -17,7 +17,7 @@ const InquiryForm = () => {
   };
 
   return (
-    <div className="inquiryForm_wrapper">
+    <div id="contact" className="inquiryForm_wrapper">
       <h2 className="inquiryHeader">Have a Different Question?</h2>
       <p className="inquirySubHeader">
         I will answer all your questions personally and help you get started

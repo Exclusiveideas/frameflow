@@ -23,7 +23,6 @@ const HeroSection = () => {
       <p className="herotagline">
         Spend less time thinking and more time editing and earning, Sign Up Now!
       </p>
-      {/* <p className="herotagline">No more creative blocks</p> */}
       <SignupForm />
     </div>
   );

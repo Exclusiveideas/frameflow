@@ -37,6 +37,16 @@
     outline: none;
     background-color: #1C1F3B;
     color: white;
+    cursor: pointer;
 }
 
 
+
+
+/* Mobile */
+@media (max-width: 575px) {
+
+    .waitlistForm {
+        flex-direction: column;
+    }
+}
