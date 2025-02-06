@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Poppins, Blinker } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 // If loading a variable font, you don't need to specify the font weight
 const blinker = Blinker({
@@ -57,6 +58,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${blinker.variable}`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
