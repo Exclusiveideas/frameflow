@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Navbar handleScroll={handleScroll} />
+        <Navbar />
         <HeroSection handleScroll={handleScroll} />
         <ProblemSection />
         <MockupSection />
