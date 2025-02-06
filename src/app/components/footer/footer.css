@@ -26,17 +26,6 @@
 }
 
 
-
-/* Tab */
-@media (max-width: 992px) {
-    .extrafeatures_wrapper {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-
-
-
 /* Mobile */
 @media (max-width: 575px) {
 

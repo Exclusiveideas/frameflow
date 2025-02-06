@@ -99,6 +99,7 @@
 
 
 
+
 /* Tab */
 @media (max-width: 992px) {
     .extrafeatures_wrapper {
@@ -108,9 +109,9 @@
 
 
 
-
 /* Mobile */
 @media (max-width: 575px) {
+    
     .aboutSectWrapper {
         width: 90%;
     }
@@ -159,3 +160,4 @@
     }
 
 }
+
