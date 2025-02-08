@@ -30,6 +30,9 @@ const Navbar = () => {
         <Link className="logoWrapper" href="#contact">
           <p className="Features">Contact Me</p>
         </Link>
+        <Link className="logoWrapper" href="#invest">
+          <p className="Features">Invest</p>
+        </Link>
       </div>
       <div className="socialWrapper">
         <TwitterIcon />
@@ -47,6 +50,7 @@ const Navbar = () => {
               <Link href="#features">Features</Link>
               <Link href="#faqs">FAQs</Link>
               <Link href="#contact">Contact Me</Link>
+              <Link href="#invest">Invest</Link>
             </PopoverContent>
           </Popover>
         </div>
